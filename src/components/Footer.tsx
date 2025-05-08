@@ -1,5 +1,4 @@
-
-import { Instagram, Youtube, Whatsapp } from "lucide-react";
+import { Instagram, Youtube, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -22,7 +21,7 @@ const Footer = () => {
               </a>
               <a href="https://wa.me/919593537711" target="_blank" rel="noopener noreferrer" 
                  className="text-cream/70 hover:text-gold transition-colors">
-                <Whatsapp className="w-5 h-5" />
+                <MessageCircle className="w-5 h-5" />
               </a>
             </div>
           </div>

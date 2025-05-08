@@ -1,5 +1,5 @@
 
-import { Calendar, User, Briefcase, Heart, Health, CircleDot } from 'lucide-react';
+import { Calendar, User, Briefcase, Heart, Activity, CircleDot } from 'lucide-react';
 
 const ServicesSection = () => {
   const services = [
@@ -26,7 +26,7 @@ const ServicesSection = () => {
     {
       title: "Health Remedies",
       description: "Discover numerical solutions to improve your physical and mental wellbeing.",
-      icon: <Health className="w-10 h-10 text-gold" />,
+      icon: <Activity className="w-10 h-10 text-gold" />,
     },
     {
       title: "Personalized Yantras",
