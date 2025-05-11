@@ -8,35 +8,35 @@
 
 @layer base {
   :root {
-    --background: 220 33% 9%;
-    --foreground: 44 37% 94%;
+    --background: 30 100% 97%;
+    --foreground: 216 12% 24%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 30 100% 98%;
+    --card-foreground: 216 12% 24%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 30 100% 98%;
+    --popover-foreground: 216 12% 24%;
 
-    --primary: 36 77% 49%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 33 100% 85%;
+    --primary-foreground: 216 12% 24%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 100% 90%;
+    --secondary-foreground: 216 12% 24%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 30 10% 90%;
+    --muted-foreground: 220 20% 60%;
 
-    --accent: 29 100% 50%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 43 100% 85%;
+    --accent-foreground: 216 12% 24%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 36 77% 49%;
+    --border: 30 15% 90%;
+    --input: 30 15% 90%;
+    --ring: 33 100% 85%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -55,33 +55,33 @@
   }
 
   body {
-    @apply bg-midnight text-cream font-poppins;
+    @apply bg-cream text-[#333333] font-poppins;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sanskrit;
+    @apply font-sanskrit text-[#444444];
   }
 }
 
 .star {
-  @apply absolute rounded-full bg-white animate-twinkle;
-  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
+  @apply absolute rounded-full bg-saffron/50 animate-twinkle;
+  box-shadow: 0 0 5px 1px rgba(255, 217, 179, 0.5);
 }
 
 .yantra-bg {
-  @apply bg-midnight bg-yantra-pattern bg-fixed bg-center bg-no-repeat;
+  @apply bg-cream bg-yantra-pattern bg-fixed bg-center bg-no-repeat;
   background-blend-mode: overlay;
 }
 
 .service-card {
-  @apply p-6 rounded-lg bg-gradient-to-br from-midnight-50 to-midnight transition-all 
-         hover:translate-y-[-5px] duration-300 border border-gold/20 hover:border-gold/60;
+  @apply p-6 rounded-2xl bg-gradient-to-br from-cream-50 to-cream shadow-md 
+         hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300 border border-gold/20 hover:border-gold/60;
   backdrop-filter: blur(10px);
 }
 
 .testimonial-card {
-  @apply p-6 rounded-lg bg-gradient-to-br from-midnight-50 to-midnight-100 
-         border border-gold/20 shadow-lg;
+  @apply p-6 rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 
+         border border-saffron/20 shadow-md;
   backdrop-filter: blur(10px);
 }
 

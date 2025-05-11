@@ -35,19 +35,24 @@ export default {
 					100: '#152642'
 				},
 				saffron: {
-					DEFAULT: '#FF7722',
-					50: '#FFEAD9',
-					100: '#FFDCC0'
+					DEFAULT: '#ffd9b3',
+					50: '#fff2e6',
+					100: '#ffe8d1'
 				},
 				gold: {
-					DEFAULT: '#D4AF37',
-					50: '#F0E6C0',
-					100: '#E6D690'
+					DEFAULT: '#ffeab6',
+					50: '#fff5dc',
+					100: '#fff0cc'
 				},
 				cream: {
-					DEFAULT: '#F8F5E6',
-					50: '#FFFEF9',
-					100: '#FAF8EF'
+					DEFAULT: '#fff8f0',
+					50: '#fefefe',
+					100: '#fcefe3'
+				},
+				sky: {
+					DEFAULT: '#cdeffd',
+					50: '#e6f7fe',
+					100: '#d9f3fd'
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -111,8 +116,8 @@ export default {
 					'50%': { opacity: '0.5' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 5px rgba(212, 175, 55, 0.5)' },
-					'50%': { boxShadow: '0 0 20px rgba(212, 175, 55, 0.9)' }
+					'0%, 100%': { boxShadow: '0 0 5px rgba(255, 217, 179, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(255, 217, 179, 0.9)' }
 				}
 			},
 			animation: {
@@ -124,9 +129,9 @@ export default {
 			},
 			backgroundImage: {
 				'yantra-pattern': "url('/yantra-bg.svg')",
-				'hero-gradient': 'linear-gradient(to bottom, rgba(15, 26, 42, 0.95), rgba(15, 26, 42, 0.85))',
-				'gold-gradient': 'linear-gradient(135deg, #D4AF37 10%, #F0E6C0 90%)',
-				'saffron-gradient': 'linear-gradient(135deg, #FF7722 10%, #FFEAD9 90%)',
+				'hero-gradient': 'linear-gradient(to bottom, rgba(255, 248, 240, 0.95), rgba(255, 248, 240, 0.85))',
+				'gold-gradient': 'linear-gradient(135deg, #ffeab6 10%, #fff5dc 90%)',
+				'saffron-gradient': 'linear-gradient(135deg, #ffd9b3 10%, #fff2e6 90%)',
 			}
 		}
 	},
