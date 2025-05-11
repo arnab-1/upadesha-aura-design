@@ -59,13 +59,13 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sanskrit text-[#444444];
+    @apply font-sanskrit text-[#1f3a5f];
   }
 }
 
 .star {
-  @apply absolute rounded-full bg-skyblue/50 animate-twinkle;
-  box-shadow: 0 0 5px 1px rgba(193, 218, 255, 0.5);
+  @apply absolute rounded-full bg-[#8fbde9]/50 animate-twinkle;
+  box-shadow: 0 0 5px 1px rgba(161, 196, 253, 0.5);
 }
 
 .yantra-bg {
@@ -75,16 +75,17 @@
 
 .service-card {
   @apply p-6 rounded-2xl bg-gradient-to-br from-pearl-50 to-pearl shadow-md 
-         hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300 border border-skyblue/20 hover:border-skyblue/60;
+         hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300 border border-[#8fbde9]/20 hover:border-[#8fbde9]/60;
   backdrop-filter: blur(10px);
 }
 
 .testimonial-card {
   @apply p-6 rounded-2xl bg-gradient-to-br from-pearl-50 to-pearl-100 
-         border border-skyblue/20 shadow-md;
+         border border-[#8fbde9]/20 shadow-md;
   backdrop-filter: blur(10px);
 }
 
 .skyblue-text {
   @apply bg-skyblue-gradient bg-clip-text text-transparent;
 }
+

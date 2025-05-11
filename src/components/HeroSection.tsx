@@ -66,7 +66,7 @@ const HeroSection = () => {
             />
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-skyblue-300">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-[#1f3a5f]">
             Discover everything yourself with Upadesha
           </h1>
           
@@ -84,7 +84,7 @@ const HeroSection = () => {
           
           <a 
             href="#consult" 
-            className="inline-block rounded-full bg-gradient-to-r from-skyblue-300 to-skyblue-200 hover:opacity-90 px-8 py-3 text-lg font-medium text-[#333333] shadow-lg transition-all hover:scale-105 animate-glow"
+            className="inline-block rounded-full bg-gradient-to-r from-skyblue-300 to-skyblue-200 hover:from-[#8fbde9] hover:to-skyblue-300 px-8 py-3 text-lg font-medium text-[#333333] shadow-lg transition-all hover:scale-105 animate-glow"
           >
             Consult Now
           </a>

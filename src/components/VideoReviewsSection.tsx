@@ -9,7 +9,7 @@ const VideoReviewsSection = () => {
     <section id="reviews" className="py-20 bg-skyblue-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-skyblue-300">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#1f3a5f]">
             Real Experiences, Real Transformations
           </h2>
           <p className="text-[#555555] max-w-2xl mx-auto">
@@ -21,10 +21,10 @@ const VideoReviewsSection = () => {
           {videoPlaceholders.map((_, index) => (
             <div 
               key={index} 
-              className="aspect-video bg-pearl-50 border border-skyblue-300/10 rounded-lg overflow-hidden relative group shadow-md"
+              className="aspect-video bg-pearl-50 border border-[#8fbde9]/20 rounded-lg overflow-hidden relative group shadow-md hover:shadow-lg transition-all duration-300"
             >
               <div className="absolute inset-0 flex items-center justify-center">
-                <Youtube className="w-16 h-16 text-skyblue-300 opacity-70 group-hover:opacity-100 transition-opacity" />
+                <Youtube className="w-16 h-16 text-[#1f3a5f] opacity-70 group-hover:opacity-100 transition-opacity" />
               </div>
               <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-pearl-50/90 to-transparent">
                 <p className="text-[#444444] font-medium">Client Testimonial {index + 1}</p>

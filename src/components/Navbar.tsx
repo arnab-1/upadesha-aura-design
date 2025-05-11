@@ -21,11 +21,11 @@ const Navbar = () => {
   return (
     <nav className={cn(
       "fixed top-0 w-full z-50 transition-all duration-300 px-4 md:px-8",
-      scrolled ? "py-2 bg-skyblue-50/90 backdrop-blur-lg shadow-lg" : "py-4 bg-transparent"
+      scrolled ? "py-2 bg-[#b0d4ea]/90 backdrop-blur-lg shadow-lg" : "py-4 bg-[#b0d4ea]/80"
     )}>
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className={cn(
-          "text-skyblue-300 text-xl md:text-2xl font-bold transition-all duration-300", 
+          "text-[#1f3a5f] text-xl md:text-2xl font-bold transition-all duration-300", 
           scrolled ? "scale-90" : ""
         )}>
           UPADESHA
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <a 
           href="#consult" 
-          className="rounded-full bg-gradient-to-r from-skyblue-300 to-skyblue-200 hover:opacity-90 px-5 py-2 text-sm font-medium text-[#333333] shadow transition-all hover:scale-105"
+          className="rounded-full bg-gradient-to-r from-skyblue-300 to-skyblue-200 hover:bg-gradient-to-r hover:from-[#8fbde9] hover:to-skyblue-300 px-5 py-2 text-sm font-medium text-[#333333] shadow transition-all hover:scale-105"
         >
           Consult Now
         </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a 
     href={href}
-    className="text-[#444444] hover:text-skyblue-300 transition-colors duration-300 font-medium"
+    className="text-[#1f3a5f] hover:text-[#333333] transition-colors duration-300 font-medium"
   >
     {children}
   </a>
