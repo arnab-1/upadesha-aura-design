@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -31,8 +30,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				midnight: {
 					DEFAULT: '#0F1A2A',
-					50: '#1A2C4A',
-					100: '#152642'
+					50: '#f0f4f8',
+					100: '#e6edf5'
 				},
 				saffron: {
 					DEFAULT: '#ffd9b3',

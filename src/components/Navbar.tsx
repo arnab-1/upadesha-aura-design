@@ -21,11 +21,11 @@ const Navbar = () => {
   return (
     <nav className={cn(
       "fixed top-0 w-full z-50 transition-all duration-300 px-4 md:px-8",
-      scrolled ? "py-2 bg-midnight/90 backdrop-blur-lg shadow-lg" : "py-4 bg-transparent"
+      scrolled ? "py-2 bg-cream/90 backdrop-blur-lg shadow-lg" : "py-4 bg-transparent"
     )}>
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className={cn(
-          "text-gold text-xl md:text-2xl font-bold transition-all duration-300", 
+          "text-saffron text-xl md:text-2xl font-bold transition-all duration-300", 
           scrolled ? "scale-90" : ""
         )}>
           UPADESHA
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <a 
           href="#consult" 
-          className="rounded-full bg-saffron hover:bg-saffron/90 px-5 py-2 text-sm font-medium text-white shadow transition-all hover:scale-105"
+          className="rounded-full bg-saffron hover:bg-saffron/90 px-5 py-2 text-sm font-medium text-[#333333] shadow transition-all hover:scale-105"
         >
           Consult Now
         </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a 
     href={href}
-    className="text-cream/80 hover:text-gold transition-colors duration-300 font-medium"
+    className="text-[#444444] hover:text-saffron transition-colors duration-300 font-medium"
   >
     {children}
   </a>
