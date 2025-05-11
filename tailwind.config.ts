@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -33,25 +34,17 @@ export default {
 					50: '#f0f4f8',
 					100: '#e6edf5'
 				},
-				saffron: {
-					DEFAULT: '#ffd9b3',
-					50: '#fff2e6',
-					100: '#ffe8d1'
+				skyblue: {
+					DEFAULT: '#a1c4fd',
+					50: '#e6f4f9',
+					100: '#dceefc',
+					200: '#c2e9fb',
+					300: '#a1c4fd'
 				},
-				gold: {
-					DEFAULT: '#ffeab6',
-					50: '#fff5dc',
-					100: '#fff0cc'
-				},
-				cream: {
-					DEFAULT: '#fff8f0',
-					50: '#fefefe',
-					100: '#fcefe3'
-				},
-				sky: {
-					DEFAULT: '#cdeffd',
-					50: '#e6f7fe',
-					100: '#d9f3fd'
+				pearl: {
+					DEFAULT: '#f7fbfc',
+					50: '#ffffff',
+					100: '#f7fbfc'
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -115,8 +108,8 @@ export default {
 					'50%': { opacity: '0.5' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 5px rgba(255, 217, 179, 0.5)' },
-					'50%': { boxShadow: '0 0 20px rgba(255, 217, 179, 0.9)' }
+					'0%, 100%': { boxShadow: '0 0 5px rgba(193, 218, 255, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(193, 218, 255, 0.9)' }
 				}
 			},
 			animation: {
@@ -128,9 +121,9 @@ export default {
 			},
 			backgroundImage: {
 				'yantra-pattern': "url('/yantra-bg.svg')",
-				'hero-gradient': 'linear-gradient(to bottom, rgba(255, 248, 240, 0.95), rgba(255, 248, 240, 0.85))',
-				'gold-gradient': 'linear-gradient(135deg, #ffeab6 10%, #fff5dc 90%)',
-				'saffron-gradient': 'linear-gradient(135deg, #ffd9b3 10%, #fff2e6 90%)',
+				'hero-gradient': 'linear-gradient(to bottom, rgba(230, 244, 249, 0.95), rgba(230, 244, 249, 0.85))',
+				'skyblue-gradient': 'linear-gradient(135deg, #a1c4fd 10%, #c2e9fb 90%)',
+				'pearl-gradient': 'linear-gradient(135deg, #f7fbfc 10%, #ffffff 90%)',
 			}
 		}
 	},

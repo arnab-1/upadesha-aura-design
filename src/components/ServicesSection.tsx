@@ -6,40 +6,40 @@ const ServicesSection = () => {
     {
       title: "Numerology Consultation",
       description: "Discover your life path and personal year numbers to understand your journey.",
-      icon: <CircleDot className="w-10 h-10 text-saffron" />,
+      icon: <CircleDot className="w-10 h-10 text-skyblue-300" />,
     },
     {
       title: "Name Correction",
       description: "Align your name's vibration with your destiny for improved life outcomes.",
-      icon: <User className="w-10 h-10 text-saffron" />,
+      icon: <User className="w-10 h-10 text-skyblue-300" />,
     },
     {
       title: "Career & Wealth Guidance",
       description: "Unlock your financial potential and find the career path meant for you.",
-      icon: <Briefcase className="w-10 h-10 text-saffron" />,
+      icon: <Briefcase className="w-10 h-10 text-skyblue-300" />,
     },
     {
       title: "Relationship Alignment",
       description: "Harmonize your relationships through numerical compatibility assessment.",
-      icon: <Heart className="w-10 h-10 text-saffron" />,
+      icon: <Heart className="w-10 h-10 text-skyblue-300" />,
     },
     {
       title: "Health Remedies",
       description: "Discover numerical solutions to improve your physical and mental wellbeing.",
-      icon: <Activity className="w-10 h-10 text-saffron" />,
+      icon: <Activity className="w-10 h-10 text-skyblue-300" />,
     },
     {
       title: "Personalized Yantras",
       description: "Custom sacred geometry to amplify your intentions and manifestations.",
-      icon: <Calendar className="w-10 h-10 text-saffron" />,
+      icon: <Calendar className="w-10 h-10 text-skyblue-300" />,
     },
   ];
 
   return (
-    <section id="services" className="py-20 bg-cream-50 relative">
+    <section id="services" className="py-20 bg-pearl-100 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-saffron">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-skyblue-300">Our Services</h2>
           <p className="text-[#555555] max-w-2xl mx-auto">
             Transform every aspect of your life with our specialized numerological services.
           </p>
@@ -48,10 +48,10 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="service-card flex flex-col items-center text-center">
-              <div className="mb-4 p-3 rounded-full bg-cream-50 border border-saffron/30">
+              <div className="mb-4 p-3 rounded-full bg-pearl-50 border border-skyblue-300/30">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold mb-2 text-saffron">{service.title}</h3>
+              <h3 className="text-xl font-bold mb-2 text-skyblue-300">{service.title}</h3>
               <p className="text-[#555555]">{service.description}</p>
             </div>
           ))}

@@ -31,7 +31,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-cream">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-skyblue-50">
       {/* Star Background */}
       <div className="absolute inset-0 overflow-hidden">
         {stars.map((star) => (
@@ -66,7 +66,7 @@ const HeroSection = () => {
             />
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-saffron">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-skyblue-300">
             Discover everything yourself with Upadesha
           </h1>
           
@@ -84,14 +84,14 @@ const HeroSection = () => {
           
           <a 
             href="#consult" 
-            className="inline-block rounded-full bg-saffron hover:bg-saffron/90 px-8 py-3 text-lg font-medium text-[#333333] shadow-lg transition-all hover:scale-105 animate-glow"
+            className="inline-block rounded-full bg-gradient-to-r from-skyblue-300 to-skyblue-200 hover:opacity-90 px-8 py-3 text-lg font-medium text-[#333333] shadow-lg transition-all hover:scale-105 animate-glow"
           >
             Consult Now
           </a>
         </div>
       </div>
       
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-cream to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-skyblue-50 to-transparent" />
     </section>
   );
 };

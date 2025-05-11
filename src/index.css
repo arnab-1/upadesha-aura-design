@@ -8,33 +8,33 @@
 
 @layer base {
   :root {
-    --background: 30 100% 97%;
+    --background: 195 67% 97%;
     --foreground: 216 12% 24%;
 
-    --card: 30 100% 98%;
+    --card: 195 67% 98%;
     --card-foreground: 216 12% 24%;
 
-    --popover: 30 100% 98%;
+    --popover: 195 67% 98%;
     --popover-foreground: 216 12% 24%;
 
-    --primary: 33 100% 85%;
+    --primary: 210 100% 97%;
     --primary-foreground: 216 12% 24%;
 
     --secondary: 210 100% 90%;
     --secondary-foreground: 216 12% 24%;
 
-    --muted: 30 10% 90%;
+    --muted: 195 10% 90%;
     --muted-foreground: 220 20% 60%;
 
-    --accent: 43 100% 85%;
+    --accent: 210 100% 90%;
     --accent-foreground: 216 12% 24%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 15% 90%;
-    --input: 30 15% 90%;
-    --ring: 33 100% 85%;
+    --border: 195 15% 90%;
+    --input: 195 15% 90%;
+    --ring: 210 100% 85%;
 
     --radius: 1rem;
 
@@ -55,7 +55,7 @@
   }
 
   body {
-    @apply bg-cream text-[#333333] font-poppins;
+    @apply bg-skyblue-50 text-[#333333] font-poppins;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -64,27 +64,27 @@
 }
 
 .star {
-  @apply absolute rounded-full bg-saffron/50 animate-twinkle;
-  box-shadow: 0 0 5px 1px rgba(255, 217, 179, 0.5);
+  @apply absolute rounded-full bg-skyblue/50 animate-twinkle;
+  box-shadow: 0 0 5px 1px rgba(193, 218, 255, 0.5);
 }
 
 .yantra-bg {
-  @apply bg-cream bg-yantra-pattern bg-fixed bg-center bg-no-repeat;
+  @apply bg-skyblue-50 bg-yantra-pattern bg-fixed bg-center bg-no-repeat;
   background-blend-mode: overlay;
 }
 
 .service-card {
-  @apply p-6 rounded-2xl bg-gradient-to-br from-cream-50 to-cream shadow-md 
-         hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300 border border-gold/20 hover:border-gold/60;
+  @apply p-6 rounded-2xl bg-gradient-to-br from-pearl-50 to-pearl shadow-md 
+         hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300 border border-skyblue/20 hover:border-skyblue/60;
   backdrop-filter: blur(10px);
 }
 
 .testimonial-card {
-  @apply p-6 rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 
-         border border-saffron/20 shadow-md;
+  @apply p-6 rounded-2xl bg-gradient-to-br from-pearl-50 to-pearl-100 
+         border border-skyblue/20 shadow-md;
   backdrop-filter: blur(10px);
 }
 
-.golden-text {
-  @apply bg-gold-gradient bg-clip-text text-transparent;
+.skyblue-text {
+  @apply bg-skyblue-gradient bg-clip-text text-transparent;
 }
