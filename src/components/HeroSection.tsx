@@ -31,7 +31,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-stone-50">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-gradient-to-b from-blue-50 to-indigo-50">
       {/* Star Background */}
       <div className="absolute inset-0 overflow-hidden">
         {stars.map((star) => (
@@ -62,20 +62,20 @@ const HeroSection = () => {
             <img 
               src="/placeholder.svg" 
               alt="Upadesha Symbol" 
-              className="w-20 h-20 mx-auto mb-4 opacity-85 animate-float"
+              className="w-20 h-20 mx-auto mb-4 opacity-85 animate-float filter brightness-90 hue-rotate-15"
             />
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-stone-800">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight cool-text">
             Discover everything yourself with Upadesha
           </h1>
           
-          <p className="text-lg md:text-xl text-stone-700 mb-6">
+          <p className="text-lg md:text-xl text-indigo-800 mb-6">
             UPADESHA by Raajeshh A Keshri is your gateway to powerful 180° life 
             transformation through the science of numerology.
           </p>
           
-          <p className="text-base md:text-lg text-stone-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-blue-700 mb-8 max-w-2xl mx-auto">
             We decode your unique numbers to unlock hidden potential, clear blockages, 
             and attract abundance in health, wealth, and relationships. Real change 
             starts here — experience clarity, purpose, and unstoppable growth with 
@@ -84,14 +84,14 @@ const HeroSection = () => {
           
           <a 
             href="#consult" 
-            className="inline-block rounded-full bg-gradient-to-r from-stone-300 to-stone-200 hover:from-stone-400 hover:to-stone-300 px-8 py-3 text-lg font-medium text-stone-800 shadow-lg transition-all hover:scale-105 animate-glow"
+            className="inline-block rounded-full bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 px-8 py-3 text-lg font-medium text-white shadow-lg transition-all hover:scale-105 animate-glow"
           >
             Consult Now
           </a>
         </div>
       </div>
       
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-stone-50 to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-indigo-50 to-transparent" />
     </section>
   );
 };

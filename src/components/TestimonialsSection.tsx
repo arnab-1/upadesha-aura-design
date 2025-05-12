@@ -58,17 +58,17 @@ const TestimonialsSection = () => {
   }, []);
 
   return (
-    <section className="py-20 relative bg-gradient-to-b from-stone-300 to-stone-200">
+    <section className="py-20 relative bg-gradient-to-b from-purple-100 to-blue-200">
       <div 
         className="absolute inset-0 bg-yantra-pattern bg-center opacity-5"
       />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-stone-800">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-indigo-900">
             Client Testimonials
           </h2>
-          <p className="text-stone-700 max-w-2xl mx-auto">
+          <p className="text-blue-700 max-w-2xl mx-auto">
             Read what our clients have to say about their transformational experience with Upadesha.
           </p>
         </div>
@@ -80,19 +80,19 @@ const TestimonialsSection = () => {
             >
               <div className="flex items-center mb-4">
                 {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-stone-400 text-stone-400" />
+                  <Star key={i} className="w-5 h-5 fill-purple-400 text-purple-400" />
                 ))}
               </div>
               
-              <blockquote className="text-lg mb-6 italic text-stone-700">
+              <blockquote className="text-lg mb-6 italic text-indigo-700">
                 "{testimonials[currentIndex].text}"
               </blockquote>
               
               <div>
-                <div className="font-bold text-stone-700">
+                <div className="font-bold text-indigo-800">
                   {testimonials[currentIndex].name}
                 </div>
-                <div className="text-sm text-stone-500">
+                <div className="text-sm text-blue-500">
                   {testimonials[currentIndex].location}
                 </div>
               </div>
@@ -105,7 +105,7 @@ const TestimonialsSection = () => {
                 key={index}
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all ${
-                  index === currentIndex ? "bg-stone-700" : "bg-stone-400/30"
+                  index === currentIndex ? "bg-indigo-700" : "bg-blue-300"
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
@@ -115,7 +115,7 @@ const TestimonialsSection = () => {
           <div className="absolute top-1/2 -translate-y-1/2 left-0 -ml-4 md:-ml-8">
             <button 
               onClick={prevTestimonial}
-              className="w-10 h-10 rounded-full bg-stone-50 border border-stone-300/20 flex items-center justify-center text-stone-700 hover:bg-stone-300 hover:text-stone-800 transition-colors"
+              className="w-10 h-10 rounded-full bg-white border border-blue-200 flex items-center justify-center text-indigo-600 hover:bg-indigo-50 hover:text-indigo-800 transition-colors"
               aria-label="Previous testimonial"
             >
               <ArrowLeft className="w-5 h-5" />
@@ -125,7 +125,7 @@ const TestimonialsSection = () => {
           <div className="absolute top-1/2 -translate-y-1/2 right-0 -mr-4 md:-mr-8">
             <button 
               onClick={nextTestimonial}
-              className="w-10 h-10 rounded-full bg-stone-50 border border-stone-300/20 flex items-center justify-center text-stone-700 hover:bg-stone-300 hover:text-stone-800 transition-colors"
+              className="w-10 h-10 rounded-full bg-white border border-blue-200 flex items-center justify-center text-indigo-600 hover:bg-indigo-50 hover:text-indigo-800 transition-colors"
               aria-label="Next testimonial"
             >
               <ArrowRight className="w-5 h-5" />

@@ -108,8 +108,8 @@ export default {
 					'50%': { opacity: '0.5' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 5px rgba(228, 221, 212, 0.5)' },
-					'50%': { boxShadow: '0 0 20px rgba(228, 221, 212, 0.9)' }
+					'0%, 100%': { boxShadow: '0 0 5px rgba(165, 180, 252, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(165, 180, 252, 0.9)' }
 				}
 			},
 			animation: {
@@ -121,9 +121,9 @@ export default {
 			},
 			backgroundImage: {
 				'yantra-pattern': "url('/yantra-bg.svg')",
-				'hero-gradient': 'linear-gradient(to bottom, rgba(245, 243, 240, 0.95), rgba(245, 243, 240, 0.85))',
-				'beige-gradient': 'linear-gradient(135deg, #e6e2dc 10%, #f5f5f0 90%)',
-				'stone-gradient': 'linear-gradient(135deg, #d6d3d1 10%, #e7e5e4 90%)',
+				'hero-gradient': 'linear-gradient(to bottom, rgba(240, 249, 255, 0.95), rgba(226, 232, 240, 0.85))',
+				'cool-gradient': 'linear-gradient(135deg, #7c3aed 10%, #3b82f6 90%)',
+				'blue-gradient': 'linear-gradient(135deg, #dbeafe 10%, #eff6ff 90%)',
 			}
 		}
 	},
