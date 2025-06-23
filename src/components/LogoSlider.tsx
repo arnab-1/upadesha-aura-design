@@ -1,12 +1,11 @@
-
 const LogoSlider = () => {
-  // Company logos - using placeholder paths for now
+  // Company logos - using actual logo paths
   const logos = [
-    { name: "Google", src: "/placeholder.svg" },
-    { name: "Amazon", src: "/placeholder.svg" },
-    { name: "Facebook", src: "/placeholder.svg" },
-    { name: "Microsoft", src: "/placeholder.svg" },
-    { name: "Apple", src: "/placeholder.svg" },
+    { name: "Google", src: "/logos/google.svg" },
+    { name: "Amazon", src: "/logos/amazon.svg" },
+    { name: "Facebook", src: "/logos/facebook.svg" },
+    { name: "Microsoft", src: "/logos/microsoft.svg" },
+    { name: "Apple", src: "/logos/apple.svg" },
     { name: "Netflix", src: "/placeholder.svg" },
     { name: "Tesla", src: "/placeholder.svg" },
     { name: "Adobe", src: "/placeholder.svg" },
