@@ -1,20 +1,12 @@
+
 const LogoSlider = () => {
-  // Company logos - using actual logo paths
+  // Company logos - using actual logo paths (original colors)
   const logos = [
     { name: "Google", src: "/logos/google.svg" },
     { name: "Amazon", src: "/logos/amazon.svg" },
     { name: "Facebook", src: "/logos/facebook.svg" },
     { name: "Microsoft", src: "/logos/microsoft.svg" },
     { name: "Apple", src: "/logos/apple.svg" },
-    { name: "Netflix", src: "/placeholder.svg" },
-    { name: "Tesla", src: "/placeholder.svg" },
-    { name: "Adobe", src: "/placeholder.svg" },
-    { name: "Spotify", src: "/placeholder.svg" },
-    { name: "Uber", src: "/placeholder.svg" },
-    { name: "Airbnb", src: "/placeholder.svg" },
-    { name: "Slack", src: "/placeholder.svg" },
-    { name: "Zoom", src: "/placeholder.svg" },
-    { name: "Dropbox", src: "/placeholder.svg" },
   ];
 
   return (
@@ -37,12 +29,12 @@ const LogoSlider = () => {
               {logos.map((logo, index) => (
                 <div
                   key={`first-${index}`}
-                  className="flex items-center justify-center w-32 h-16 opacity-50 grayscale hover:opacity-75 hover:grayscale-0 transition-all duration-300"
+                  className="flex items-center justify-center w-32 h-16 opacity-75 hover:opacity-100 transition-all duration-300"
                 >
                   <img
                     src={logo.src}
                     alt={`${logo.name} logo`}
-                    className="max-w-full max-h-full object-contain filter brightness-0"
+                    className="max-w-full max-h-full object-contain"
                   />
                 </div>
               ))}
@@ -53,12 +45,12 @@ const LogoSlider = () => {
               {logos.map((logo, index) => (
                 <div
                   key={`second-${index}`}
-                  className="flex items-center justify-center w-32 h-16 opacity-50 grayscale hover:opacity-75 hover:grayscale-0 transition-all duration-300"
+                  className="flex items-center justify-center w-32 h-16 opacity-75 hover:opacity-100 transition-all duration-300"
                 >
                   <img
                     src={logo.src}
                     alt={`${logo.name} logo`}
-                    className="max-w-full max-h-full object-contain filter brightness-0"
+                    className="max-w-full max-h-full object-contain"
                   />
                 </div>
               ))}
