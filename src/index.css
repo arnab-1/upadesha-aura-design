@@ -63,6 +63,24 @@
   }
 }
 
+/* Marquee animation keyframes */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.pause-marquee {
+  animation-play-state: paused;
+}
+
 .star {
   @apply absolute rounded-full bg-indigo-200/50 animate-twinkle;
   box-shadow: 0 0 5px 1px rgba(165, 180, 252, 0.5);

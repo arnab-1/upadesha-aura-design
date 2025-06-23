@@ -1,6 +1,7 @@
 
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
+import LogoSlider from "../components/LogoSlider";
 import ServicesSection from "../components/ServicesSection";
 import WhyUpadeshaSection from "../components/WhyUpadeshaSection";
 import VideoReviewsSection from "../components/VideoReviewsSection";
@@ -13,6 +14,7 @@ const Index = () => {
     <div className="bg-slate-50 text-slate-800 min-h-screen">
       <Navbar />
       <HeroSection />
+      <LogoSlider />
       <ServicesSection />
       <WhyUpadeshaSection />
       <VideoReviewsSection />
